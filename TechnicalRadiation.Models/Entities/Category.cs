@@ -1,3 +1,5 @@
+using System;
+
 namespace TechnicalRadiation.Models
 {
     public class Category

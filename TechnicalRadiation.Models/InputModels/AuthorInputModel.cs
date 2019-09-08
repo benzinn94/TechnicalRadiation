@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace TechnicalRadiation.WebApi.Models
 {
     public class AuthorInputModel
@@ -6,7 +8,7 @@ namespace TechnicalRadiation.WebApi.Models
         public string Name { get; set; }
         [Required]
         public string ProfileImgSource { get; set; }
-        [Maxlength(255)]
+        [MaxLength(255)]
         public string Bio { get; set; }
     }
 }

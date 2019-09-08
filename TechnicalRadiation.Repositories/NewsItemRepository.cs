@@ -1,8 +1,7 @@
-﻿using System;
-
 namespace TechnicalRadiation.Repositories
 {
-    public class Class1
+    public class NewsItemRepository
     {
+        
     }
 }
