@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using AutoMapper;
+using RentThePlace.Repositories.Data;
 using TechnicalRadiation.Models.Dtos;
 
 namespace TechnicalRadiation.Repositories
@@ -8,10 +9,15 @@ namespace TechnicalRadiation.Repositories
     {
         private IMapper _mapper;
 
+        public NewsItemRepository(IMapper mapper)
+        {
+            _mapper = mapper;
+        }
         public IEnumerable<NewsItemDto> GetAllNews() {
             
-            return null;
-            //return _mapper.Map()
+
+            
+            return _mapper.Map<IEnumerable<NewsItemDto>>(DataProvider.NewsItems);
         }
         
     }
