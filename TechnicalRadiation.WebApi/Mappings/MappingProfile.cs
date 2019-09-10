@@ -1,6 +1,8 @@
+using AutoMapper;
+
 namespace TechnicalRadiation.WebApi.Mappings
 {
-    public class MappingProfile
+    public class MappingProfile : Profile
     {
         
     }

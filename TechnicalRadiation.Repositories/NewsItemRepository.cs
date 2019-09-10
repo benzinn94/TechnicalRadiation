@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using AutoMapper;
-using TechnicalRadiation.WebApi.Models;
+using TechnicalRadiation.Models.Dtos;
 
 namespace TechnicalRadiation.Repositories
 {

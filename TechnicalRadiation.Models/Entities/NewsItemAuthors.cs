@@ -1,4 +1,4 @@
-namespace TechnicalRadiation.WebApi.Models
+namespace TechnicalRadiation.Models.Entities
 {
     public class NewsItemAuthors
     {

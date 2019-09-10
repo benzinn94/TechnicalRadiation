@@ -1,6 +1,6 @@
 using System;
 
-namespace TechnicalRadiation.WebApi.Models
+namespace TechnicalRadiation.Models.Entities
 {
     public class Author
     {

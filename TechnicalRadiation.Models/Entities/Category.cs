@@ -1,6 +1,6 @@
 using System;
 
-namespace TechnicalRadiation.Models
+namespace TechnicalRadiation.Models.Entities
 {
     public class Category
     {

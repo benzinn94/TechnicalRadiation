@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace TechnicalRadiation.WebApi.Models
+namespace TechnicalRadiation.Models.InputModels
 {
     public class NewsItemInputModel
     {
