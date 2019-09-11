@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using TechnicalRadiation.Models.Entities;
 
-namespace RentThePlace.Repositories.Data
+namespace TechnicalRadiation.Repositories.Data.DataProvider
 {
     public static class DataProvider
     {
@@ -260,7 +260,8 @@ namespace RentThePlace.Repositories.Data
                 ModifiedBy = _adminName,
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
-            }
+            },
+            
          };
 
         public static List<NewsItemAuthors> NewsItemAuthors = new List<NewsItemAuthors>

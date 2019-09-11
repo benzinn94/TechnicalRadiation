@@ -18,7 +18,7 @@ namespace TechnicalRadiation.WebApi.Controllers
         }
         
         [Route("")]
-        [HttpGet]
+        [HttpGet(Name = nameof(GetAllNews))]
         public IActionResult GetAllNews() {
             Envelope<NewsItemDto> env = new Envelope<NewsItemDto>(0, 25, _newsItemService.GetAllNews());
             return Ok(env);

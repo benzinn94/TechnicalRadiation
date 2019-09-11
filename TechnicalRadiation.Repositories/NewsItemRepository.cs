@@ -1,7 +1,8 @@
 using System.Collections.Generic;
+using System.Linq;
 using AutoMapper;
-using RentThePlace.Repositories.Data;
 using TechnicalRadiation.Models.Dtos;
+using TechnicalRadiation.Repositories.Data.DataProvider;
 
 namespace TechnicalRadiation.Repositories
 {
@@ -15,9 +16,7 @@ namespace TechnicalRadiation.Repositories
         }
         public IEnumerable<NewsItemDto> GetAllNews() {
             
-
-            
-            return _mapper.Map<IEnumerable<NewsItemDto>>(DataProvider.NewsItems);
+            return _mapper.Map<IEnumerable<NewsItemDto>>(DataProvider.NewsItems.OrderByDescending(o => o.PublishedDate));
         }
         
     }

@@ -243,6 +243,10 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "IMvcBuilder": {
+              "target": "Package",
+              "version": "(, )"
+            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
