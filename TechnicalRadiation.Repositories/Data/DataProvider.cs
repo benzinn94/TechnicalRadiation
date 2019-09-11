@@ -105,6 +105,240 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
                 ModifiedBy = _adminName,
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
+            },
+
+            new NewsItem
+            {
+                Id = 9,
+                Title = "Trump to ban the use of inflateable animals as they offend him and cause a national security risk",
+                ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
+                ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
+                LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
+                PublishedDate = DateTime.Now,
+                ModifiedBy = _adminName,
+                CreatedDate = DateTime.Now,
+                ModifiedDate = DateTime.Now
+            },
+
+            new NewsItem
+            {
+                Id = 10,
+                Title = "The president of Iceland, Gudni Th. Johannesson, running for president again 2020",
+                ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
+                ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
+                LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
+                PublishedDate = DateTime.Now,
+                ModifiedBy = _adminName,
+                CreatedDate = DateTime.Now,
+                ModifiedDate = DateTime.Now
+            },
+
+            new NewsItem
+            {
+                Id = 11,
+                Title = "Team USA loose against France, 89-79 in the FIBA World Cup",
+                ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
+                ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
+                LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
+                PublishedDate = DateTime.Now,
+                ModifiedBy = _adminName,
+                CreatedDate = DateTime.Now,
+                ModifiedDate = DateTime.Now
+            },
+
+            new NewsItem
+            {
+                Id = 12,
+                Title = "Apple announce the new iPhone 11!",
+                ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
+                ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
+                LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
+                PublishedDate = DateTime.Now,
+                ModifiedBy = _adminName,
+                CreatedDate = DateTime.Now,
+                ModifiedDate = DateTime.Now
+            },
+
+            new NewsItem
+            {
+                Id = 13,
+                Title = "Breaking news: Signs of alien life have been discovered on Mars!",
+                ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
+                ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
+                LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
+                PublishedDate = DateTime.Now,
+                ModifiedBy = _adminName,
+                CreatedDate = DateTime.Now,
+                ModifiedDate = DateTime.Now
+            },
+
+            new NewsItem
+            {
+                Id = 14,
+                Title = "Tesla opens a new shop in Iceland",
+                ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
+                ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
+                LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
+                PublishedDate = DateTime.Now,
+                ModifiedBy = _adminName,
+                CreatedDate = DateTime.Now,
+                ModifiedDate = DateTime.Now
+            },
+
+            new NewsItem
+            {
+                Id = 15,
+                Title = "Temperatures reach a new high in Australia soaring up to 55°c",
+                ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
+                ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
+                LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
+                PublishedDate = DateTime.Now,
+                ModifiedBy = _adminName,
+                CreatedDate = DateTime.Now,
+                ModifiedDate = DateTime.Now
+            },
+
+            new NewsItem
+            {
+                Id = 16,
+                Title = "Aperture Science found guilty of polution",
+                ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
+                ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
+                LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
+                PublishedDate = DateTime.Now,
+                ModifiedBy = _adminName,
+                CreatedDate = DateTime.Now,
+                ModifiedDate = DateTime.Now
+            },
+
+            new NewsItem
+            {
+                Id = 17,
+                Title = "Mario saves the princess only to find out the Bowser has taken her to another castle",
+                ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
+                ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
+                LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
+                PublishedDate = DateTime.Now,
+                ModifiedBy = _adminName,
+                CreatedDate = DateTime.Now,
+                ModifiedDate = DateTime.Now
+            },
+
+            new NewsItem
+            {
+                Id = 18,
+                Title = "Link finally woke up from a hundred year sleep and had this to say",
+                ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
+                ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
+                LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
+                PublishedDate = DateTime.Now,
+                ModifiedBy = _adminName,
+                CreatedDate = DateTime.Now,
+                ModifiedDate = DateTime.Now
+            },
+
+            new NewsItem
+            {
+                Id = 19,
+                Title = "Avengers go before the Supreme Court after the insident in Cambodia",
+                ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
+                ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
+                LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
+                PublishedDate = DateTime.Now,
+                ModifiedBy = _adminName,
+                CreatedDate = DateTime.Now,
+                ModifiedDate = DateTime.Now
+            },
+
+            new NewsItem
+            {
+                Id = 20,
+                Title = "The Flint Tropics become the ABA national champions",
+                ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
+                ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
+                LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
+                PublishedDate = DateTime.Now,
+                ModifiedBy = _adminName,
+                CreatedDate = DateTime.Now,
+                ModifiedDate = DateTime.Now
+            },
+
+            new NewsItem
+            {
+                Id = 21,
+                Title = "A petabyte hard drive has finally been released for public use",
+                ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
+                ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
+                LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
+                PublishedDate = DateTime.Now,
+                ModifiedBy = _adminName,
+                CreatedDate = DateTime.Now,
+                ModifiedDate = DateTime.Now
+            },
+
+            new NewsItem
+            {
+                Id = 22,
+                Title = "Breaking news: USA has declared war on North Korea",
+                ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
+                ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
+                LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
+                PublishedDate = DateTime.Now,
+                ModifiedBy = _adminName,
+                CreatedDate = DateTime.Now,
+                ModifiedDate = DateTime.Now
+            },
+
+            new NewsItem
+            {
+                Id = 23,
+                Title = "Climate change is effecting more than you think. What you can do to help",
+                ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
+                ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
+                LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
+                PublishedDate = DateTime.Now,
+                ModifiedBy = _adminName,
+                CreatedDate = DateTime.Now,
+                ModifiedDate = DateTime.Now
+            },
+
+            new NewsItem
+            {
+                Id = 24,
+                Title = "Heavy rain and strong winds expected to hit Iceland in the next days. Residents asked to take the trampolines inside",
+                ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
+                ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
+                LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
+                PublishedDate = DateTime.Now,
+                ModifiedBy = _adminName,
+                CreatedDate = DateTime.Now,
+                ModifiedDate = DateTime.Now
+            },
+
+            new NewsItem
+            {
+                Id = 25,
+                Title = "New DC Projekt Red game, Cyperpunk 2077, coming out in early 2020",
+                ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
+                ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
+                LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
+                PublishedDate = DateTime.Now,
+                ModifiedBy = _adminName,
+                CreatedDate = DateTime.Now,
+                ModifiedDate = DateTime.Now
+            },
+
+            new NewsItem
+            {
+                Id = 26,
+                Title = "Remake of the classic Castlevania games coming to Nintendo Switch in 2020",
+                ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
+                ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
+                LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
+                PublishedDate = DateTime.Now,
+                ModifiedBy = _adminName,
+                CreatedDate = DateTime.Now,
+                ModifiedDate = DateTime.Now
             }
         };
 
@@ -261,7 +495,15 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
             },
-            
+             new Category
+            {
+                Id = 7,
+                Name = "Video games",
+                Slug = "video-games",
+                ModifiedBy = _adminName,
+                CreatedDate = DateTime.Now,
+                ModifiedDate = DateTime.Now
+            }
          };
 
         public static List<NewsItemAuthors> NewsItemAuthors = new List<NewsItemAuthors>
@@ -351,6 +593,12 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
             {
                 CategoryId = 6,
                 NewsItemId = 8
+            },
+
+            new NewsItemCategories
+            {
+                CategoryId = 7,
+                NewsItemId = 25
             }
         };
     }
