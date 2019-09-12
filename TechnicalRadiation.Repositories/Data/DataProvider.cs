@@ -17,7 +17,7 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
                 ImgSource = "https://ichef.bbci.co.uk/news/624/cpsprodpb/043D/production/_108658010_ruddjavidreuters.jpg",
                 ShortDescription = "Up to 90% of government effort is on no-deal, with no evidence of any formal negotiations to get an EU deal, she says.",
                 LongDescription = "Amber Rudd has quit Boris Johnson\'s cabinet, with an outspoken attack on the government\'s approach to Brexit. The ex-work and pensions secretary said the government was having no \"formal negotiations\" with the EU about a new deal, only \"conversations\".",
-                PublishedDate = DateTime.Now,
+                PublishDate = DateTime.Now,
                 ModifiedBy = _adminName,
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
@@ -29,7 +29,7 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
                 ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
                 ShortDescription = "Everton's Yerry Mina has been fined £10,000 and warned as to his future conduct after admitting breaching Football Association betting rules.",
                 LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
-                PublishedDate = DateTime.Now,
+                PublishDate = DateTime.Now,
                 ModifiedBy = _adminName,
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
@@ -41,7 +41,7 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
                 ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
                 ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
                 LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
-                PublishedDate = DateTime.Now,
+                PublishDate = DateTime.Now,
                 ModifiedBy = _adminName,
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
@@ -53,7 +53,7 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
                 ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
                 ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
                 LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
-                PublishedDate = DateTime.Now,
+                PublishDate = DateTime.Now,
                 ModifiedBy = _adminName,
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
@@ -65,7 +65,7 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
                 ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
                 ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
                 LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
-                PublishedDate = DateTime.Now,
+                PublishDate = DateTime.Now,
                 ModifiedBy = _adminName,
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
@@ -77,7 +77,7 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
                 ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
                 ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
                 LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
-                PublishedDate = DateTime.Now,
+                PublishDate = DateTime.Now,
                 ModifiedBy = _adminName,
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
@@ -89,7 +89,7 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
                 ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
                 ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
                 LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
-                PublishedDate = DateTime.Now,
+                PublishDate = DateTime.Now,
                 ModifiedBy = _adminName,
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
@@ -101,7 +101,7 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
                 ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
                 ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
                 LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
-                PublishedDate = DateTime.Now,
+                PublishDate = DateTime.Now,
                 ModifiedBy = _adminName,
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
@@ -114,7 +114,7 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
                 ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
                 ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
                 LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
-                PublishedDate = DateTime.Now,
+                PublishDate = DateTime.Now,
                 ModifiedBy = _adminName,
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
@@ -127,7 +127,7 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
                 ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
                 ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
                 LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
-                PublishedDate = DateTime.Now,
+                PublishDate = DateTime.Now,
                 ModifiedBy = _adminName,
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
@@ -140,7 +140,7 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
                 ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
                 ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
                 LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
-                PublishedDate = DateTime.Now,
+                PublishDate = DateTime.Now,
                 ModifiedBy = _adminName,
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
@@ -153,7 +153,7 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
                 ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
                 ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
                 LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
-                PublishedDate = DateTime.Now,
+                PublishDate = DateTime.Now,
                 ModifiedBy = _adminName,
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
@@ -166,7 +166,7 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
                 ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
                 ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
                 LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
-                PublishedDate = DateTime.Now,
+                PublishDate = DateTime.Now,
                 ModifiedBy = _adminName,
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
@@ -179,7 +179,7 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
                 ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
                 ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
                 LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
-                PublishedDate = DateTime.Now,
+                PublishDate = DateTime.Now,
                 ModifiedBy = _adminName,
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
@@ -192,7 +192,7 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
                 ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
                 ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
                 LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
-                PublishedDate = DateTime.Now,
+                PublishDate = DateTime.Now,
                 ModifiedBy = _adminName,
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
@@ -205,7 +205,7 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
                 ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
                 ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
                 LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
-                PublishedDate = DateTime.Now,
+                PublishDate = DateTime.Now,
                 ModifiedBy = _adminName,
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
@@ -218,7 +218,7 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
                 ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
                 ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
                 LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
-                PublishedDate = DateTime.Now,
+                PublishDate = DateTime.Now,
                 ModifiedBy = _adminName,
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
@@ -231,7 +231,7 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
                 ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
                 ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
                 LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
-                PublishedDate = DateTime.Now,
+                PublishDate = DateTime.Now,
                 ModifiedBy = _adminName,
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
@@ -244,7 +244,7 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
                 ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
                 ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
                 LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
-                PublishedDate = DateTime.Now,
+                PublishDate = DateTime.Now,
                 ModifiedBy = _adminName,
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
@@ -257,7 +257,7 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
                 ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
                 ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
                 LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
-                PublishedDate = DateTime.Now,
+                PublishDate = DateTime.Now,
                 ModifiedBy = _adminName,
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
@@ -270,7 +270,7 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
                 ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
                 ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
                 LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
-                PublishedDate = DateTime.Now,
+                PublishDate = DateTime.Now,
                 ModifiedBy = _adminName,
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
@@ -283,7 +283,7 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
                 ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
                 ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
                 LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
-                PublishedDate = DateTime.Now,
+                PublishDate = DateTime.Now,
                 ModifiedBy = _adminName,
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
@@ -296,7 +296,7 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
                 ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
                 ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
                 LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
-                PublishedDate = DateTime.Now,
+                PublishDate = DateTime.Now,
                 ModifiedBy = _adminName,
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
@@ -309,7 +309,7 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
                 ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
                 ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
                 LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
-                PublishedDate = DateTime.Now,
+                PublishDate = DateTime.Now,
                 ModifiedBy = _adminName,
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
@@ -322,7 +322,7 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
                 ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
                 ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
                 LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
-                PublishedDate = DateTime.Now,
+                PublishDate = DateTime.Now,
                 ModifiedBy = _adminName,
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
@@ -335,7 +335,7 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
                 ImgSource = "https://live.staticflickr.com/3557/3688988206_ef3af4af10_b.jpg",
                 ShortDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et.",
                 LongDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus lectus sed magna gravida, congue cursus velit imperdiet. Aliquam erat volutpat. Pellentesque lacinia neque vitae finibus blandit. Suspendisse cursus neque vitae nunc molestie, ut placerat ipsum egestas. Mauris varius orci metus, vel posuere dui iaculis id. Fusce aliquet magna vel felis dignissim blandit. Nunc euismod pulvinar ante quis ornare. Morbi vulputate metus nec felis pulvinar, tincidunt venenatis neque fringilla. Fusce purus nibh, maximus in pulvinar eu, suscipit a ipsum. Quisque augue diam, scelerisque facilisis sem in, condimentum placerat est. Etiam fermentum dui id diam eleifend fringilla. Cras vitae urna iaculis, rhoncus augue quis, pretium tellus. Vestibulum vel neque id dui blandit pellentesque. Mauris posuere malesuada orci ac viverra. Nullam ligula orci, fermentum tincidunt iaculis quis, finibus faucibus massa.",
-                PublishedDate = DateTime.Now,
+                PublishDate = DateTime.Now,
                 ModifiedBy = _adminName,
                 CreatedDate = DateTime.Now,
                 ModifiedDate = DateTime.Now
@@ -557,7 +557,7 @@ namespace TechnicalRadiation.Repositories.Data.DataProvider
             },
         };
 
-         public static List<NewsItemCategories> newsItemCategories = new List<NewsItemCategories>
+         public static List<NewsItemCategories> NewsItemCategories = new List<NewsItemCategories>
         {
             new NewsItemCategories
             {

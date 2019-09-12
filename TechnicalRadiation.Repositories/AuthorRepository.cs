@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using AutoMapper;
@@ -28,6 +29,11 @@ namespace TechnicalRadiation.Repositories
             }
             
             return _mapper.Map<IEnumerable<AuthorDto>>(authors);
+        }
+
+        public AuthorDetailDto GetAuthorById(int id)
+        {
+            return _mapper.Map<AuthorDetailDto>(DataProvider.Authors.FirstOrDefault(c => c.Id == id));
         }
     }
 }

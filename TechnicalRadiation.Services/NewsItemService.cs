@@ -12,6 +12,13 @@ namespace TechnicalRadiation.Services
         private NewsItemRepository _newsItemRepository;
         private AuthorRepository _authorRepository;
         private CategoryRepository _categoryRepository;
+
+        public NewsItemService(IMapper mapper)
+        {
+            _newsItemRepository = new NewsItemRepository(mapper);
+            _authorRepository = new AuthorRepository(mapper);
+            _categoryRepository = new CategoryRepository(mapper);
+        }
         public IEnumerable <NewsItemDto> GetAllNews(){
 
             var news = _newsItemRepository.GetAllNews().ToList();
@@ -26,20 +33,22 @@ namespace TechnicalRadiation.Services
             return news;
         }
 
-        public NewsItemService(IMapper mapper)
-        {
-            _newsItemRepository = new NewsItemRepository(mapper);
-            _authorRepository = new AuthorRepository(mapper);
-            _categoryRepository = new CategoryRepository(mapper);
-        }
-
-        private void CreateLinksNewsItem(NewsItemDto newsItems)
-        {
-            var authors = _authorRepository.GetAllAuthors();
-            var categories = _categoryRepository.GetAllCategories();
-
-
+        public NewsItemDetailDto GetNewsItemById(int id){
             
+            var newsItem =  _newsItemRepository.GetNewsItemById(id);
+            
+            newsItem.Links.AddReference("self", $"api/{newsItem.Id}");
+            newsItem.Links.AddReference("edit", $"api/{newsItem.Id}");
+            newsItem.Links.AddReference("delete", $"api/{newsItem.Id}");
+            newsItem.Links.AddListReference("authors", _authorRepository.GetAuthorsByNewsItemId(newsItem.Id).Select(a => new {href = $"/api/authors/{a.Id}"}));
+            newsItem.Links.AddListReference("categories", _categoryRepository.GetCategoriesByNewsItemId(newsItem.Id).Select(c => new {href = $"/api/categories/{c.Id}"}));
+            
+            return newsItem;
         }
+
+
+        
+
+       
     }
 }

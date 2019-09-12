@@ -13,10 +13,14 @@ namespace TechnicalRadiation.WebApi.Mappings
             
             CreateMap<NewsItem, NewsItemDto>();
             CreateMap<NewsItemInputModel, NewsItem>();
+            CreateMap<NewsItem, NewsItemDetailDto>();
             CreateMap<Author, AuthorDto>();
             CreateMap<AuthorInputModel, Author>();
+            CreateMap<Author, AuthorDetailDto>();
             CreateMap<Category, CategoryDto>();
             CreateMap<CategoryInputModel, Category>();
+            CreateMap<Category, CategoryDetailDto>();
+            
         }
     }
 }

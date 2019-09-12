@@ -17,11 +17,17 @@ namespace TechnicalRadiation.WebApi.Controllers
             _newsItemService = new NewsItemService(mapper);
         }
         
-        [Route("")]
-        [HttpGet(Name = nameof(GetAllNews))]
+        [Route("", Name = "GetAllNews")]
+        [HttpGet]
         public IActionResult GetAllNews() {
             Envelope<NewsItemDto> env = new Envelope<NewsItemDto>(0, 25, _newsItemService.GetAllNews());
             return Ok(env);
+       }
+
+       [Route("{id:int}", Name = "GetNewsItemById")]
+       [HttpGet]
+       public IActionResult GetNewsItemById(int id){
+           return Ok(_newsItemService.GetNewsItemById(id));
        }
     } 
 }

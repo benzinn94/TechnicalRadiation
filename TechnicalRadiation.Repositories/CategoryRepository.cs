@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using AutoMapper;
@@ -20,10 +21,9 @@ namespace TechnicalRadiation.Repositories
             return  _mapper.Map<IEnumerable<CategoryDto>>(DataProvider.Categories);
         }
 
-
         public IEnumerable<CategoryDto> GetCategoriesByNewsItemId(int id){
 
-            var categoryIds = DataProvider.newsItemCategories.Where(x => x.NewsItemId == id).ToList();
+            var categoryIds = DataProvider.NewsItemCategories.Where(x => x.NewsItemId == id).ToList();
             var categories = new List<Category>();
 
             foreach(var item in categoryIds){
@@ -31,6 +31,11 @@ namespace TechnicalRadiation.Repositories
             }
             
             return _mapper.Map<IEnumerable<CategoryDto>>(categories);
+        }
+
+        public CategoryDetailDto GetCategoryById(int id)
+        {
+            return _mapper.Map<CategoryDetailDto>(DataProvider.Categories.FirstOrDefault(c => c.Id == id));
         }
     }
 }
