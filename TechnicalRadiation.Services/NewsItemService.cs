@@ -1,8 +1,10 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using AutoMapper;
 using TechnicalRadiation.Models.Dtos;
 using TechnicalRadiation.Models.Extensions;
+using TechnicalRadiation.Models.InputModels;
 using TechnicalRadiation.Repositories;
 
 namespace TechnicalRadiation.Services
@@ -33,6 +35,11 @@ namespace TechnicalRadiation.Services
             return news;
         }
 
+        public NewsItemDetailDto CreateNewsItem(NewsItemInputModel model)
+        {
+            return _newsItemRepository.CreateNewsItem(model);
+        }
+
         public NewsItemDetailDto GetNewsItemById(int id){
             
             var newsItem =  _newsItemRepository.GetNewsItemById(id);
@@ -46,9 +53,14 @@ namespace TechnicalRadiation.Services
             return newsItem;
         }
 
+        public void DeleteNewsItemById(int id)
+        {
+            _newsItemRepository.DeleteNewsItemById(id);
+        }
 
-        
-
-       
+        public void UpdateNewsItemById(NewsItemInputModel model, int id)
+        {
+            _newsItemRepository.UpdateNewsItemById(model, id);
+        }
     }
 }

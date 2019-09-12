@@ -113,6 +113,10 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
+            "Microsoft.DirectX.Direct3D": {
+              "target": "Package",
+              "version": "(, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

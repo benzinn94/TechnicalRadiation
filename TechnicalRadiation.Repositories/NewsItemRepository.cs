@@ -4,6 +4,7 @@ using System.Linq;
 using AutoMapper;
 using TechnicalRadiation.Models.Dtos;
 using TechnicalRadiation.Models.Entities;
+using TechnicalRadiation.Models.InputModels;
 using TechnicalRadiation.Repositories.Data.DataProvider;
 
 namespace TechnicalRadiation.Repositories
@@ -47,6 +48,38 @@ namespace TechnicalRadiation.Repositories
             }
 
             return _mapper.Map<IEnumerable<NewsItemDto>>(newsItems);
+        }
+
+        public NewsItemDetailDto CreateNewsItem(NewsItemInputModel model)
+        {
+            var nextId = DataProvider.NewsItems.OrderByDescending(n => n.Id).FirstOrDefault().Id + 1;
+            var entity = _mapper.Map<NewsItem>(model);
+            entity.Id = nextId;
+            DataProvider.NewsItems.Add(entity);
+            return _mapper.Map<NewsItemDetailDto>(entity);
+        }
+
+        public void UpdateNewsItemById(NewsItemInputModel model, int id)
+        {
+            var entity = DataProvider.NewsItems.FirstOrDefault(n => n.Id == id);
+            if(entity == null){throw new KeyNotFoundException(); }
+
+            entity.Title = model.Title;
+            entity.ImgSource = model.ImgSource;
+            entity.ShortDescription = model.ShortDescription;
+            entity.LongDescription = model.LongDescription;
+            entity.PublishDate = model.PublishDate;
+            entity.ModifiedDate = DateTime.Now;
+            
+        }
+
+        public void DeleteNewsItemById(int id)
+        {
+            var entity = DataProvider.NewsItems.FirstOrDefault(n => n.Id == id);
+            if(entity == null){throw new KeyNotFoundException(); }
+
+            DataProvider.NewsItems.Remove(entity);
+
         }
     }
 }

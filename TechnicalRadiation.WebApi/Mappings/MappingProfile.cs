@@ -1,3 +1,4 @@
+using System;
 using AutoMapper;
 using TechnicalRadiation.Models.Dtos;
 using TechnicalRadiation.Models.Entities;
@@ -12,7 +13,11 @@ namespace TechnicalRadiation.WebApi.Mappings
             public MappingProfile(){
             
             CreateMap<NewsItem, NewsItemDto>();
-            CreateMap<NewsItemInputModel, NewsItem>();
+            CreateMap<NewsItemInputModel, NewsItem>()                
+                .ForMember(src => src.CreatedDate, opt => opt.MapFrom(src => DateTime.Now))
+                .ForMember(src => src.ModifiedDate, opt => opt.MapFrom(src => DateTime.Now))
+                .ForMember(src => src.ModifiedBy, opt => opt.MapFrom(src => "TechnicalRadiationAdmin"));
+
             CreateMap<NewsItem, NewsItemDetailDto>();
             CreateMap<Author, AuthorDto>();
             CreateMap<AuthorInputModel, Author>();
