@@ -4,6 +4,7 @@ project.lock.json
 .DS_Store
 *.pyc
 nupkg/
+*.cache
 
 # Visual Studio Code
 .vscode
@@ -33,5 +34,7 @@ msbuild.log
 msbuild.err
 msbuild.wrn
 
+
 # Visual Studio 2015
 .vs/
+
