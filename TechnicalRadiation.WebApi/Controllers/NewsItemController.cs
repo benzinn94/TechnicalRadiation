@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using TechnicalRadiation.Models;
 using TechnicalRadiation.Models.Dtos;
+using TechnicalRadiation.Models.InputModels;
 using TechnicalRadiation.Services;
 
 namespace TechnicalRadiation.WebApi.Controllers
@@ -28,6 +29,13 @@ namespace TechnicalRadiation.WebApi.Controllers
        [HttpGet]
        public IActionResult GetNewsItemById(int id){
            return Ok(_newsItemService.GetNewsItemById(id));
+       }
+
+        [Route("", Name = "CreateNewsItem")]
+        [HttpPost]
+        public IActionResult CreateNewsItem(NewsItemInputModel model) {
+            
+            return NoContent();
        }
     } 
 }
