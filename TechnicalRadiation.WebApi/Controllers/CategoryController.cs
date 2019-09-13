@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using TechnicalRadiation.Models;
@@ -12,10 +13,11 @@ namespace TechnicalRadiation.WebApi.Controllers
     public class CategoryController : ControllerBase
     {
         private CategoryService _categoryService;
-
+        private string _authorizationHeader;
          public CategoryController(IMapper mapper){
 
             _categoryService = new CategoryService(mapper);
+            _authorizationHeader = "dmVyeSBzZWNyZXQ=";
         }
 
         [Route("", Name = "GetAllCategories")]
@@ -29,7 +31,9 @@ namespace TechnicalRadiation.WebApi.Controllers
        [Route("{id:int}", Name = "GetCategoryById")]
        [HttpGet]
        public IActionResult GetCategoryById(int id){
-           return Ok(_categoryService.GetCategoryById(id));
+           var category = _categoryService.GetCategoryById(id);
+           if (category == null){return BadRequest("No category with this Id exists.");}
+           return Ok(category);
        }
 
         [Route("", Name = "CreateCategory")]
@@ -38,8 +42,58 @@ namespace TechnicalRadiation.WebApi.Controllers
             if (!ModelState.IsValid) { return BadRequest("Model formatting is invalid"); }
             var entity = _categoryService.CreateCategory(model);
             
-           // return CreatedAtAction("GetCategoryId", new {id = entity.Id}, null);
+            return CreatedAtRoute("GetCategoryById", new {id = entity.Id}, entity);;
+       }
+
+        [Route("{id:int}", Name = "UpdateCategoryById")]
+        [HttpPut]
+        public IActionResult UpdateCategoryById([FromBody] CategoryInputModel model, int id){
+            
+            if (Request.Headers["Authorization"] != _authorizationHeader){ return BadRequest("Authorization required."); }
+            
+            if (!ModelState.IsValid) { return BadRequest("Model formatting is invalid"); }
+
+            try{
+                _categoryService.UpdateCategoryById(model, id);
+            }
+            catch( KeyNotFoundException k){
+                return BadRequest("No category with this Id exists.");
+            }
+    
            return NoContent();
+       }
+
+
+        [Route("{id:int}", Name = "DeleteCategoryById")]
+        [HttpDelete]
+         public IActionResult DeleteCategoryById(int id){
+           
+            if (Request.Headers["Authorization"] != _authorizationHeader){ return BadRequest("Authorization required."); }
+           
+            try{
+                _categoryService.DeleteCategoryById(id);
+            }
+            catch(KeyNotFoundException k){
+                return BadRequest("No category with this Id exists.");
+            }
+            return NoContent();
+       }
+
+       [Route("{categoryId:int}/newsItems/{newsItemId:int}", Name = "CreateNewsItemCategoryRelation")]
+       [HttpPost]
+       public IActionResult CreateNewsItemCategoryRelation(int categoryId, int newsItemId){
+            
+            if (Request.Headers["Authorization"] != _authorizationHeader){ return BadRequest("Authorization required."); }
+
+            try{
+                _categoryService.CreateNewsItemCategoryRelation(categoryId, newsItemId);
+
+            }
+            catch(KeyNotFoundException k){
+                return BadRequest("Category or news item with provided id does not exist.");
+            }
+                
+            return NoContent();
        }
     }
 }

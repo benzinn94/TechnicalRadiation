@@ -47,5 +47,35 @@ namespace TechnicalRadiation.Repositories
             DataProvider.Categories.Add(entity);
             return _mapper.Map<CategoryDetailDto>(entity);
         }
+
+        public void UpdateCategoryById(CategoryInputModel model, int id)
+        {
+            var entity = DataProvider.Categories.FirstOrDefault(c => c.Id == id);
+            if(entity == null){throw new KeyNotFoundException(); }
+
+            entity.Name = model.Name;
+            entity.Slug = model.Name.Replace(" ", "-").ToLower();
+            entity.ModifiedDate = DateTime.Now;
+        }
+
+        public void DeleteCategoryById(int id)
+        {
+            var entity = DataProvider.Categories.FirstOrDefault(c => c.Id == id);
+            if(entity == null){throw new KeyNotFoundException(); }
+
+            DataProvider.Categories.Remove(entity);
+        }
+
+        public void CreateNewsItemCategoryRelation(int categoryId, int newsItemId)
+        {
+            var category = DataProvider.Categories.FirstOrDefault(c => c.Id == categoryId);
+            var newsItem = DataProvider.NewsItems.FirstOrDefault(n => n.Id == newsItemId);
+
+            if(category == null || newsItem == null){throw new KeyNotFoundException() ;}
+            var relation = new NewsItemCategories();
+            relation.CategoryId = categoryId;
+            relation.NewsItemId = newsItemId;
+            DataProvider.NewsItemCategories.Add(relation);
+        }
     }
 }

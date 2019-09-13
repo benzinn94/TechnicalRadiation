@@ -4,6 +4,7 @@ using System.Linq;
 using AutoMapper;
 using TechnicalRadiation.Models.Dtos;
 using TechnicalRadiation.Models.Extensions;
+using TechnicalRadiation.Models.InputModels;
 using TechnicalRadiation.Repositories;
 
 namespace TechnicalRadiation.Services
@@ -48,7 +49,13 @@ namespace TechnicalRadiation.Services
 
             return author;
         }
-    public IEnumerable<NewsItemDto> GetAuthorNewsItemsById(int id){
+
+        public AuthorDetailDto CreateAuthor(AuthorInputModel model)
+        {
+            return _authorRepository.CreateAuthor(model);
+        }
+
+        public IEnumerable<NewsItemDto> GetAuthorNewsItemsById(int id){
         var news = _newsItemRepository.GetNewsItemsByAuthorId(id).ToList();
         news.ForEach(n => {
                 
@@ -61,5 +68,20 @@ namespace TechnicalRadiation.Services
         
         return news;
     }
+
+        public void UpdateAuthorById(AuthorInputModel model, int id)
+        {
+            _authorRepository.UpdateAuthorById(model, id);
+        }
+
+         public void DeleteAuthorById(int id)
+        {
+            _authorRepository.DeleteAuthorById(id);
+        }
+
+        public void CreateNewsItemCategoryRelation(int authorId, int newsItemId)
+        {
+            _authorRepository.CreateNewsItemCategoryRelation(authorId, newsItemId);
+        }
     }
 }

@@ -14,9 +14,11 @@ namespace TechnicalRadiation.WebApi.Controllers
     {
 
         private NewsItemService _newsItemService;
+        private string _authorizationHeader;
         public NewsItemController(IMapper mapper){
 
             _newsItemService = new NewsItemService(mapper);
+            _authorizationHeader = "dmVyeSBzZWNyZXQ=";
         }
         
         [Route("", Name = "GetAllNews")]
@@ -33,22 +35,28 @@ namespace TechnicalRadiation.WebApi.Controllers
 
            var newsItem = _newsItemService.GetNewsItemById(id);
 
-           if(newsItem == null){return BadRequest("No news item with this Id exists.");}
+           if (newsItem == null){return BadRequest("No news item with this Id exists.");}
            return Ok(_newsItemService.GetNewsItemById(id));
        }
 
         [Route("", Name = "CreateNewsItem")]
         [HttpPost]
         public IActionResult CreateNewsItem([FromBody] NewsItemInputModel model) {
+            
+            if (Request.Headers["Authorization"] != _authorizationHeader){ return BadRequest("Authorization required."); }
+            
             if (!ModelState.IsValid) { return BadRequest("Model formatting is invalid"); }
             var entity = _newsItemService.CreateNewsItem(model);
             
-            return CreatedAtRoute("GetNewsItemById", new {id = entity.Id}, null);
+            return CreatedAtRoute("GetNewsItemById", new {id = entity.Id}, entity);
        }
 
         [Route("{id:int}", Name = "UpdateNewsItemById")]
         [HttpPut]
         public IActionResult UpdateNewsItemById([FromBody] NewsItemInputModel model, int id){
+            
+            if (Request.Headers["Authorization"] != _authorizationHeader){ return BadRequest("Authorization required."); }
+            
             if (!ModelState.IsValid) { return BadRequest("Model formatting is invalid"); }
 
             try{
@@ -64,6 +72,8 @@ namespace TechnicalRadiation.WebApi.Controllers
        [Route("{id:int}", Name = "DeleteNewsItemById")]
        [HttpDelete]
        public IActionResult DeleteNewsItemById(int id){
+           
+            if (Request.Headers["Authorization"] != _authorizationHeader){ return BadRequest("Authorization required."); }
            
             try{
                 _newsItemService.DeleteNewsItemById(id);

@@ -47,5 +47,20 @@ namespace TechnicalRadiation.Services
         {
             return _categoryRepository.CreateCategory(model);
         }
+
+        public void UpdateCategoryById(CategoryInputModel model, int id)
+        {
+            _categoryRepository.UpdateCategoryById(model, id);
+        }
+
+        public void DeleteCategoryById(int id)
+        {
+            _categoryRepository.DeleteCategoryById(id);
+        }
+
+        public void CreateNewsItemCategoryRelation(int categoryId, int newsItemId)
+        {
+            _categoryRepository.CreateNewsItemCategoryRelation(categoryId, newsItemId);
+        }
     }
 }
