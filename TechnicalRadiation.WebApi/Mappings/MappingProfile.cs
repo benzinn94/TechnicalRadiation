@@ -1,5 +1,7 @@
 using System;
+using System.Linq;
 using AutoMapper;
+using Microsoft.EntityFrameworkCore.Internal;
 using TechnicalRadiation.Models.Dtos;
 using TechnicalRadiation.Models.Entities;
 using TechnicalRadiation.Models.InputModels;
@@ -23,7 +25,11 @@ namespace TechnicalRadiation.WebApi.Mappings
             CreateMap<AuthorInputModel, Author>();
             CreateMap<Author, AuthorDetailDto>();
             CreateMap<Category, CategoryDto>();
-            CreateMap<CategoryInputModel, Category>();
+            CreateMap<CategoryInputModel, Category>()
+                .ForMember(src => src.CreatedDate, opt => opt.MapFrom(src => DateTime.Now))
+                .ForMember(src => src.ModifiedDate, opt => opt.MapFrom(src => DateTime.Now))
+                .ForMember(src => src.ModifiedBy, opt => opt.MapFrom(src => "TechnicalRadiationAdmin"))
+                .ForMember(src => src.Slug, opt => opt.MapFrom(src => src.Name.Replace(" ", "-").ToLower()));
             CreateMap<Category, CategoryDetailDto>();
             
         }

@@ -2,6 +2,7 @@ using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using TechnicalRadiation.Models;
 using TechnicalRadiation.Models.Dtos;
+using TechnicalRadiation.Models.InputModels;
 using TechnicalRadiation.Services;
 
 namespace TechnicalRadiation.WebApi.Controllers
@@ -29,6 +30,16 @@ namespace TechnicalRadiation.WebApi.Controllers
        [HttpGet]
        public IActionResult GetCategoryById(int id){
            return Ok(_categoryService.GetCategoryById(id));
+       }
+
+        [Route("", Name = "CreateCategory")]
+        [HttpPost]
+        public IActionResult CreateCategory([FromBody] CategoryInputModel model) {
+            if (!ModelState.IsValid) { return BadRequest("Model formatting is invalid"); }
+            var entity = _categoryService.CreateCategory(model);
+            
+           // return CreatedAtAction("GetCategoryId", new {id = entity.Id}, null);
+           return NoContent();
        }
     }
 }

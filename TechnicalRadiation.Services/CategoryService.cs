@@ -4,6 +4,7 @@ using System.Linq;
 using AutoMapper;
 using TechnicalRadiation.Models.Dtos;
 using TechnicalRadiation.Models.Extensions;
+using TechnicalRadiation.Models.InputModels;
 using TechnicalRadiation.Repositories;
 
 namespace TechnicalRadiation.Services
@@ -40,6 +41,11 @@ namespace TechnicalRadiation.Services
             category.Links.AddReference("delete", $"api/categories/{category.Id}");
            
             return category;
+        }
+
+        public CategoryDetailDto CreateCategory(CategoryInputModel model)
+        {
+            return _categoryRepository.CreateCategory(model);
         }
     }
 }
